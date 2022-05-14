@@ -1,0 +1,17 @@
+﻿<Window x:Class="_2secondtwo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2secondtwo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="Box1"  HorizontalAlignment="Left" Margin="139,88,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0"/>
+        <ComboBox x:Name="Box2" HorizontalAlignment="Left" Margin="494,88,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="10"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="139,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="TextBoxFrom" MaxLength="16"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="494,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  IsReadOnly="True" />
+
+        <Button Content="Рассчитать" HorizontalAlignment="Center" Margin="344,182,386.6,0" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>
